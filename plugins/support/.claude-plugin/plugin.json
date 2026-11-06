@@ -1,0 +1,10 @@
+{
+  "name": "azamath-support",
+  "displayName": "Azamath Support",
+  "description": "Report bugs and improvement ideas for skills from this marketplace.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Azamat Holmeer",
+    "email": "azamat.holmeer@gmail.com"
+  }
+}

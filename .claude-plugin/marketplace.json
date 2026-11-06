@@ -1,5 +1,5 @@
 {
-  "name": "skills",
+  "name": "azamath",
   "owner": {
     "name": "Azamat Holmeer",
     "email": "azamat.holmeer@gmail.com"
@@ -10,6 +10,12 @@
       "displayName": "Productivity",
       "source": "./plugins/productivity",
       "description": "Set of productivity skills to make your life easier."
+    },
+    {
+      "name": "azamath-support",
+      "displayName": "Azamath Support",
+      "source": "./plugins/support",
+      "description": "Report bugs and improvement ideas for skills from this marketplace."
     }
   ]
 }
