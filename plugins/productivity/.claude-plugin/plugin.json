@@ -1,0 +1,10 @@
+{
+  "name": "productivity",
+  "displayName": "Productivity",
+  "description": "Set of productivity skills to make your life easier.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Azamat Holmeer",
+    "email": "azamat.holmeer@gmail.com"
+  }
+}

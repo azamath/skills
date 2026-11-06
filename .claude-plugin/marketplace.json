@@ -1,0 +1,15 @@
+{
+  "name": "skills",
+  "owner": {
+    "name": "Azamat Holmeer",
+    "email": "azamat.holmeer@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "productivity",
+      "displayName": "Productivity",
+      "source": "./plugins/productivity",
+      "description": "Set of productivity skills to make your life easier."
+    }
+  ]
+}
