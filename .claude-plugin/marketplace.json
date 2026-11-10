@@ -9,7 +9,13 @@
       "name": "productivity",
       "displayName": "Productivity",
       "source": "./plugins/productivity",
-      "description": "Set of productivity skills to make your life easier."
+      "description": "Plan, write and organize everyday work with less friction."
+    },
+    {
+      "name": "engineering",
+      "displayName": "Engineering",
+      "source": "./plugins/engineering",
+      "description": "Design, write, debug and review code with engineering discipline, not vibes."
     },
     {
       "name": "azamath-support",
