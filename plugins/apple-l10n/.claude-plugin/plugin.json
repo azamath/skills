@@ -1,0 +1,10 @@
+{
+  "name": "apple-l10n",
+  "displayName": "Apple Localization",
+  "description": "Write localizable SwiftUI strings and translate Xcode String Catalogs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Azamat Holmeer",
+    "email": "azamat.holmeer@gmail.com"
+  }
+}

@@ -18,6 +18,12 @@
       "description": "Design, write, debug and review code with engineering discipline, not vibes."
     },
     {
+      "name": "apple-l10n",
+      "displayName": "Apple Localization",
+      "source": "./plugins/apple-l10n",
+      "description": "Write localizable SwiftUI strings and translate Xcode String Catalogs."
+    },
+    {
       "name": "azamath-support",
       "displayName": "Azamath Support",
       "source": "./plugins/support",
