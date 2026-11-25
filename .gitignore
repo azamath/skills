@@ -36,3 +36,6 @@ logs/
 *.tmp
 .tmp/
 temp/
+
+# Skills linked for local testing
+.claude/skills/*-dev
