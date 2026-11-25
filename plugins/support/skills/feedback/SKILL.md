@@ -13,7 +13,7 @@ User's feedback: $ARGUMENTS
 
 1. **Classify.** The feedback is a **bug** (the skill did something wrong or failed to do what its instructions promise) or an **enhancement** (the skill worked as written, but the user wants it to do more, less or differently). Done when you have picked one. If the feedback mixes both, file the main point and mention the rest in the body.
 
-2. **Identify the skill.** A loaded skill prints `Base directory for this skill: <path>`; for this marketplace the path looks like `.../plugins/cache/azamath/<plugin>/<version>/skills/<skill>`, which gives plugin, version and skill name. An enhancement may name a skill that did not run in this session: find it under `~/.claude/plugins/cache/azamath/`. Done when you have plugin, skill and version. If several skills fit, ask the user. If the skill is not from this marketplace, tell the user and stop.
+2. **Identify the skill.** A loaded skill prints `Base directory for this skill: <path>`; for this marketplace the path looks like `.../plugins/cache/azamath/<plugin>/<version>/skills/<skill>`, which gives plugin, version (a 12-character commit SHA of the marketplace repo) and skill name. An enhancement may name a skill that did not run in this session: find it under `~/.claude/plugins/cache/azamath/`. Done when you have plugin, skill and version. If several skills fit, ask the user. If the skill is not from this marketplace, tell the user and stop.
 
 3. **Write the report.** Fill the template for the kind from step 1, using the session and the feedback. Done when a reader who never saw this session can act on it: for a bug, reproduce the failure; for an enhancement, see what to change and why.
    - Quote only the turns that matter, trimmed to the relevant lines. Replace secrets, tokens, personal data and proprietary code with `<redacted>`.
@@ -39,7 +39,7 @@ Title: `<plugin>/<skill>: <the point in a few words>`
 Both kinds start with:
 
 ```markdown
-**Skill:** <plugin>/<skill> v<version>
+**Skill:** <plugin>/<skill> @ <version>
 **Project:** <repo or folder name, no absolute paths>
 ```
 
